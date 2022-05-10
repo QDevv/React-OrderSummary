@@ -11,3 +11,138 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  align-items: center;
+}
+.example button{
+  display: block;
+  margin: auto;
+background-color: rgb(84, 84, 163);
+color: white;
+width: 15rem;
+height: 3rem;
+font-size: 1rem;
+}
+
+.example{
+
+}
+
+.div2{
+  display: flex;
+  margin: auto;
+  /* display: block; */
+  /* position: relative; */
+  /* left: 500px; */
+  background-color: rgb(248,249,254);
+  height: 3.7rem;
+  width:22rem ;
+  border-radius: 10px;
+}
+a{
+  padding-top: 20px;
+  margin-left: 120px;
+  color: rgb(56,42,225);
+  font-weight: bold;
+}
+
+
+.div1{
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  border: 0px solid grey;
+  width: 28rem;
+  height: 550px;
+  /* margin-top: 30px; */
+  position: relative;
+  top: 30px;
+  overflow: hidden;
+  color: grey
+
+}
+.lorem{
+  width:70% ;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+h2{
+  color: black;
+}
+.img22{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding-top: 17px;
+  margin-right: 10px;
+  margin-left: 10px ;
+
+}
+h5 {
+  display: inline-block;
+  margin-top: 3px;
+  position: relative;
+  top: 9px;
+  color: black;
+
+}
+h5 p{
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  color: grey;
+}
+.btn{
+  background-color: rgb(56,42,225);
+  color: white;
+  width: 22rem;
+  border-radius: 5px;
+  height: 2.5rem;
+  margin-top: 15px;
+  box-shadow: 2px 15px 10px rgb(228,226,251);
+  border-style: none;
+}
+.Maindv{
+  /* width: 60rem; */
+  height: 700px ;
+  background-image: url(./images/pattern-background-desktop\ \(2\).svg);
+  background-repeat: no-repeat;
+              /* margin: auto; */
+  background-color: rgb(224,232,255);
+font-family: sans-serif;
+}
+
+@media (max-width: 480px)
+ { /*body{
+   background-color: brown;
+ }*/
+  .Maindv{
+    width: 100%;
+    font-size: 14px;
+  }
+  .div1{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+  }
+  .btn{
+    width: 70%;
+  }
+  .div2{
+    width: 85%;
+  }
+  a{
+    margin-left: 45px;
+    padding-right: 10px;
+  }
+  .im{
+    width: 100%;
+  }
+  .lorem{
+        width:90% ;}
+        h5{
+          margin-top: 10px;
+        }
+ }

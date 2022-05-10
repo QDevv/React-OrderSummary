@@ -1,0 +1,15 @@
+
+ul{
+    display: flex;
+    flex: end;
+    /* padding-left: 100px; */
+    margin-right: 20em;
+    list-style-type: none;
+    
+    
+}
+li{
+    margin-right: 7px;
+    /* padding-left: 10em; */
+    
+}
